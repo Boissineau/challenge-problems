@@ -21,4 +21,9 @@ def reverse_words(s):
     print(str2)
     return str2
 
+
+def reverseWords(str):
+    return " ".join(str.split(" ")[::-1])
+
+
     # https://www.codewars.com/kata/51c8991dee245d7ddf00000e/train/python
